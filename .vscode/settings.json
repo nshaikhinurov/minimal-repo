@@ -1,0 +1,11 @@
+{
+	// Включаем форматирование Prettier при сохранении файла (VSCode extension Prettier)
+	"editor.formatOnSave": true,
+
+	// Включаем живой линтинг ESLint (VSCode extension ESLint)
+	"eslint.enable": true,
+
+	// Отключаем ts linter, чтобы не повторялись предупреждения от ESLint (встроено в VSCode?)
+	"typescript.validate.enable": false,
+	"javascript.validate.enable": false
+}
